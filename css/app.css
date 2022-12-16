@@ -4,6 +4,10 @@
 	margin: 0;
 }
 
+.img{
+    max-width: 100%;
+}
+
 .navbar{
     min-height: 40px;
     background-color:#FF6900;
@@ -14,31 +18,34 @@
     background-color: #1A1A1A;
 }
 
+.container{
+    margin: 0  auto;
+    width: 900px;
+    
+}
+
 .container-cards{
-    margin: 0 auto;
+    display: flex;
+       
 }
 
 .card{
-    width: 470px;
-    min-height: 728px;
+    width: 300px;
+    margin: 10px;
 
-    border: 1px solid black
 }
 
 .product-image{
-    width: 470px;
-    height: 671px;
-    background-color: brown;
+    width: 300px;
+    height: 400px;
     position: relative;
 }
 
-.row{
-    display: flex;
-}
 
 .uomo-a{
     background-image: url(../img/1.webp);
-    background-size: contain;
+    background-size: cover;
+    
 }
 
 .cuoricino{
