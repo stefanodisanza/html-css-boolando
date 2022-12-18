@@ -8,14 +8,65 @@
     max-width: 100%;
 }
 
+ul{
+    color: white;
+    f
+}
+
+header{
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
 .navbar{
     min-height: 40px;
     background-color:#FF6900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
 }
+
+main{
+    padding-top: 60px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.categorie{
+    padding-left: 35px;
+}
+
+.icone-nav{
+    padding-right: 35px;
+    color: white;
+}
+
+.logo{
+    max-height: 30px;
+}
+
 
 .footer{
     min-height: 50px;
     background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    align-items: center;
+
+}
+
+.legal-info{
+    font-size: 12px;
 }
 
 .container{
@@ -41,11 +92,43 @@
     position: relative;
 }
 
+.price{
+    color: red;
+}
+
+.full-price{
+    text-decoration: line-through;
+}
 
 .uomo-a{
     background-image: url(../img/1.webp);
     background-size: cover;
     
+}
+
+.donna-a{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+.donna-b{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+}
+
+.uomo-b{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+.donna-c{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+}
+
+.donna-d{
+    background-image: url(../img/6.webp);
+    background-size: cover;
 }
 
 .cuoricino{
