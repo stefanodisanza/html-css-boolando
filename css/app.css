@@ -18,6 +18,7 @@ header{
     position: fixed;
     top: 0px;
     width: 100%;
+    z-index: 999;
 }
 
 .navbar{
@@ -92,9 +93,10 @@ a{
     position: relative;
 }
 
-.price{
+.discounted-price{
     color: red;
 }
+
 
 .full-price{
     text-decoration: line-through;
@@ -106,8 +108,18 @@ a{
     
 }
 
+.uomo-a:hover{
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+}
+
 .donna-a{
     background-image: url(../img/2.webp);
+    background-size: cover;
+}
+
+.donna-a:hover{
+    background-image: url(../img/2b.webp);
     background-size: cover;
 }
 
@@ -116,8 +128,18 @@ a{
     background-size: cover;
 }
 
+.donna-b:hover{
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+}
+
 .uomo-b{
     background-image: url(../img/4.webp);
+    background-size: cover;
+}
+
+.uomo-b:hover{
+    background-image: url(../img/4b.webp);
     background-size: cover;
 }
 
@@ -126,39 +148,61 @@ a{
     background-size: cover;
 }
 
+.donna-c:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+}
+
 .donna-d{
     background-image: url(../img/6.webp);
+    background-size: cover;
+}
+
+.donna-d:hover{
+    background-image: url(../img/6b.webp);
     background-size: cover;
 }
 
 .cuoricino{
     background-color: white;
     font-size: 20px;
-    max-width:fit-content;
-    padding: 10px 15px 10px 15px;
+    width: 52px;
+    text-align: center;
+    line-height: 52px;
     position: absolute;
     top: 10px;
     right: 0;
 }
 
-.discount{
-    background-color: red;
-    color: white;
-    width: fit-content;
-    padding: 10px 15px 10px 15px;
+.cuoricino:hover{
+    color: red;
+}
+
+.box-rettangolini{
+    display: flex;
     position: absolute;
     bottom: 25px;
-    left: 0px;
     
 }
+
+.discount{
+    background-color: red;
+    padding: 0 5px;
+    margin-right: 10px;
+    color: white;
+    width: fit-content;
+}
+
+.discount:hover{
+    background-color: rgb(106, 1, 1);
+}
+
 
 
 .sostenibile{
     background-color: green;
+    padding: 0 5px;
     color: white;
     width: fit-content;
-    padding: 10px 15px 10px 15px;
-    position: absolute;
-    bottom: 25px;
-    left: 70px;
+
 }
